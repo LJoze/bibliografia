@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Mi Página Web</title>
+  </head>
+  <body>
+    <div class="padre d-flex flex-column">
+      <!-- Cabezera -->
+      <div class="header">
+        <div class="col-12">
+          <p class="text-white text-start ms-3 mb-0 py-3 fs-4 fst-italic des">
+            Bienvenidos a mi Página Web <br /><span class="fs-6 fst-normal des"
+              >Est. Jose Luis Quispe Condori</span
+            >
+          </p>
+        </div>
+      </div>
+
+      <!-- Menú -->
+      <div class="nav-cont mb-3">
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+          <div class="container-fluid">
+            <a
+              href="/index.html"
+              class="navbar-brand ms-1 fs-4 text-secondary fw-bold fst-italic"
+              >Jos3LQ</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#contenidoMenu"
+              aria-controls="contenidoMenu"
+              aria-expanded="false"
+              aria-label="Mostrar/Ocultar Navegación"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="contenidoMenu">
+              <!-- Enlaces -->
+              <ul class="navbar-nav nav-tabs mx-auto">
+                <li class="nav-item">
+                  <a href="/index.html" class="nav-link">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/carrera.html" class="nav-link">Carrera</a>
+                </li>
+                <li class="nav-item">
+                  <a href="/bibliografia.html" class="nav-link active">Bibliografia</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Materias</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    id="#submenuHobbies"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Hobbies
+                  </a>
+                  <!-- Sub-Elementos -->
+                  <ul class="dropdown-menu" aria-labelledby="submenuHobbies">
+                    <li><a href="#" class="dropdown-item">Lectura</a></li>
+                    <li><a href="#" class="dropdown-item">Videojuegos</a></li>
+                    <li><a href="#" class="dropdown-item">Tecnología</a></li>
+                    <li><a href="#" class="dropdown-item">Edición</a></li>
+                    <li><a href="#" class="dropdown-item">Modding</a></li>
+                  </ul>
+                </li>
+              </ul>
+
+              <button class="btn btn-primary px-4">Contacto</button>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+        <!-- Acordeon -->
+        <div class="container">
+            <div class="row pb-5 pt-3">
+                <div class="col">
+                    <div class="border-bottom">
+                        <h2 class="text-center">Libros Recomendados</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-1.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Clean Code</h5>
+                          <p class="card-text">Explica muy bien las buenas prácticas a la hora de escribir código</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">The Pragmatic Programmer</h5>
+                          <p class="card-text">Excelente libro con muchas recomendaciones de cómo pensar como un programador pragmático. Lectura obligatoria para todo programador.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Clean Architecture</h5>
+                          <p class="card-text">Muy buen libro de arquitectura de software</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>                         
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-4.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Domain-Driven Design</h5>
+                          <p class="card-text">Libro que explica el diseño basado en dominio. Un concepto básico para alguien que ya está diseñando sistemas y aplicaciones completas.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Designing Data-Intensive Applications</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi, est ratione provident aperiam non.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card #6</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi, est ratione provident aperiam non.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>    
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-7.jpg" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title">Card #7</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi, est ratione provident aperiam non.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card #8</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi, est ratione provident aperiam non.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col">
+                    <div class="card">
+                        <img src="img/Card-9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card #9</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam eligendi, est ratione provident aperiam non.</p>
+                          <a href="#" class="btn btn-primary">Detalles</a>
+                        </div>
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
